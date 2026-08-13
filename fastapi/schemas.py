@@ -5,7 +5,6 @@ class CustomerEventPayload(TypedDict):
     customer_id: str
     event_kind: str
     region: str
-    payload_version: str
     schema_version: str
     correlation_id: str
 
