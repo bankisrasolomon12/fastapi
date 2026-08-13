@@ -16,7 +16,7 @@ class OrderMessageSchema(TypedDict):
     quantity: int
     unit_price: float
     currency: str
-    status: str
+    order_status: str
 
 
 class ProducerEventMessage(TypedDict):
