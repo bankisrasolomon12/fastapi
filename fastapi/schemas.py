@@ -24,4 +24,3 @@ class ProducerEventMessage(TypedDict):
     topic: str
     partition_key: str
     event_timestamp: str
-    retry_count: int
